@@ -1,0 +1,122 @@
+/*轮播*/
+body {
+  font-family: microsoft yahei, Arial;
+  margin: 0;
+  padding: 0;
+}
+.lf {
+  float: left;
+}
+
+.rt {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.ovh {
+  overflow: hidden;
+}
+
+a {
+  color: #303030;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+img {
+  border: none;
+}
+.lb_gl {
+  width: 100%;
+
+  float: left;
+  margin-bottom: 30px;
+  background: url(../images/bg_3d.png);
+  background-size: 100% 100%;
+  height: 725px;
+}
+.container_card {
+  width: 1024px;
+  margin: 0 auto;
+  position: relative;
+}
+.pictureSlider {
+  height: 518px;
+  margin-bottom: 24px;
+}
+.poster-item {
+  background: #fff;
+  height: 420px;
+  width: 336px;
+  border-radius: 10px;
+  padding: 45px 23px 20px 23px;
+  position: absolute;
+  left: 50%;
+  transition: all 0.5s;
+  cursor: default;
+  -moz-transition: all 0.5s;
+  cursor: default;
+  -webkit-transition: all 0.5s;
+  cursor: default;
+  -o-transition: all 0.5s;
+  cursor: default;
+}
+/* 标题 h1*/
+.turn_3d {
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+  font-size: 36px;
+  padding: 28px 0;
+}
+
+.c_s_n {
+  /*   XXX 老师*/
+  font-size: 30px;
+  font-weight: 900;
+  padding-left: 10px;
+}
+
+/* 图片文字盒子 */
+
+.card_bottom {
+  padding: 10px 10px 0 10px;
+}
+
+.cell_list {
+  margin-bottom: 20px;
+  font-size: 18px;
+  overflow: hidden;
+}
+
+.darks {
+  color: #000;
+}
+/*摘要*/
+.c_z_y {
+  border-top: 1px solid #d0cddb;
+  line-height: 20px;
+  padding-top: 5px;
+  color: #999;
+  font-size: 12px;
+  max-height: 84px;
+  overflow: hidden;
+}
+/* 图片 */
+.for_btn {
+  margin-top: 20px;
+  position: relative;
+  height: 180px;
+  overflow: hidden;
+}
